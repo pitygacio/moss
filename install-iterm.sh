@@ -1,4 +1,4 @@
-GIST_URL="https://gist.githubusercontent.com/luisfarzati/2d5f2b8f542c4e9cfa172d42da07c21d/raw"
+GIST_URL="$USER/moss/files/com.googlecode.iterm2.plist"
 
 print_title ITERM
 
