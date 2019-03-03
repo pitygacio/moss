@@ -15,15 +15,5 @@ fi
 # Load nodenv
 eval "$(nodenv init -)"
 
-# Load gpg-agent
-if [ -d "$HOME/.gnupg" ]; then
-   if [ -n "$(pgrep gpg-agent)" ]; then
-      export GPG_TTY=$(tty)
-      export GPG_AGENT_INFO=~/.gnupg/S.gpg-agent:1489:1
-   else
-      eval $(gpg-agent --daemon)
-   fi
-fi
-
 # Enable completion
 autoload -Uz compinit && compinit -i

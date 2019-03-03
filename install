@@ -3,19 +3,19 @@ set -euo pipefail
 IFS=$'\n\t'
 
 MOSS_INSTALL_FEATURES=(
-   brew
-   fonts
+#   brew
+#   fonts
    iterm
-   zsh
-   ssh
-   gpg
-   git
-   vim
-   node
-   vscode
-   docker
-   utils
-   apps
+#   zsh
+#   ssh
+#   gpg
+#   git
+#   vim
+#   node
+#   vscode
+#   docker
+#   utils
+#   apps
 )
 
 is_step_enabled() {

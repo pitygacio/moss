@@ -16,21 +16,9 @@ alias gfe='git fetch --all --prune --prune-tags --tags'
 alias gpr='git pull -r'
 alias glo='git log --oneline'
 alias glog='git log'
-alias gst='git status --short'
-alias gstt='git status'
+alias gst='git status'
 alias master='git checkout master'
 
 # Node
 alias psnode='ps aux | grep "[n]ode "'
 
-# Docker
-alias dps='docker ps'
-alias dpsa='docker ps -a'
-alias drm='docker rm'
-alias drmall='docker rm -f `docker ps -aq`'
-alias dim='docker images'
-alias dima='docker images -a'
-
-# Kubernetes
-alias k='kubectl'
-alias kgp='k get pods'
